@@ -1,0 +1,35 @@
+.cardLesson{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 32%;
+    gap: 1rem;
+}   
+.cardLesson img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.content{
+    color: black;
+    font-size: .8rem;
+}
+.content p{
+    font-size: 1rem;
+    color: #9bdb2d;
+    font-weight: 600;
+}
+.content p span{
+    color: yellow;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: rgba(22, 19, 39, 0.26);
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}

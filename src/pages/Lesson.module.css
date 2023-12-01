@@ -1,0 +1,19 @@
+.tasks {
+  background: rgb(147, 127, 250);
+  background: linear-gradient(
+    90deg,
+    rgba(147, 127, 250, 1) 20%,
+    rgba(68, 131, 200, 1) 64%,
+    rgba(122, 142, 250, 1) 89%
+  );
+  height: 100vh;
+  padding: 1rem;
+
+}
+.tasks h5{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: cursive;
+    margin-bottom: 1rem;
+}
